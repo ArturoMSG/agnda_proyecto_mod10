@@ -5,7 +5,6 @@ export default function App({ Component, pageProps }) {
   
       <>
    <ChakraProvider>
-      <h2>funcionando _app</h2>
       <Component {...pageProps}/> 
     </ChakraProvider>
                 

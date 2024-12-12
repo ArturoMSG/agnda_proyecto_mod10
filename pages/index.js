@@ -1,7 +1,10 @@
+import BarMenu from "@/components/BarMenu"
+
+
 export default function Home() {
   return (
     <>
-     <h2>FUNCIONANDO index</h2>
+     <BarMenu/>
     </>
   )
 }
