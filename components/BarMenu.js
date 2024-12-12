@@ -4,6 +4,9 @@ import { Box, Flex, Text, Stack, Button, useColorModeValue, useColorMode } from 
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'    // Importamos los iconos de la luna y el sol
 
 const BarMenu = () => {
+    const { colorMode, toggleColorMode } = useColorMode() // Se crea una constante para el color y el cambio
+
+
     return (
         <> {/* Este div es el contenedor principal de la página.  si no se pone un div  generara un error*/}
             <Head>
